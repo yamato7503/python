@@ -1,0 +1,8 @@
+open_file = open('point.txt')
+raw_data = open_file.read()
+open_file.close()
+print(raw_data)
+write_file = open('point.txt', 'a')
+write_file.write('Hello World!\n')
+write_file.write('Hello Python!\n')
+write_file.close() 
